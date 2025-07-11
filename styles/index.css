@@ -42,8 +42,6 @@
 
 .nav-title:hover{
     color: tomato;
-    transform: scale(1.5);
-    transition: 0.5s;
 }
 a:hover{
     color: #4E47FF;
