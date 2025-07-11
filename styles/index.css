@@ -12,7 +12,11 @@
 }
 
 .secondary-bg{
-    
+    border-radius: 10px;
+}
+
+.dark-2{
+    color: #252432;
 }
 
 .btn-primary{
@@ -24,7 +28,12 @@
     border-radius: 10px;
     border: none;
 }
-
+/* Header Section Starts */
+.header{
+    background-image: url(../image/Hero-bg.png);
+    width: auto;
+    height: 698px;
+}
 
 /* Navbar Section Styles */
 nav{
@@ -37,4 +46,15 @@ nav{
 .nav-title{
     font-weight: 600px;
     font-size: 35px;    
+}
+
+/* Banner Section */
+.banner-greetings{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.banner{
+    text-align: center;
+    margin-top: 158px;
 }
