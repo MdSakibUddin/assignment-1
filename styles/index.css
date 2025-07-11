@@ -28,6 +28,10 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.btn-primary:hover, .btn-primary-1:hover{
+    background-color: tomato
 }
 /* Header Section Starts */
 .header{
@@ -153,3 +157,45 @@ nav{
 .image{
     border-radius: 50%;
 }
+
+/* Form Section Css */
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 120px;
+    margin: 93px 150px 0 150px ;
+}
+.form-title{
+    color:rgba(0, 0, 0, 1);
+    font-size: 97px;
+    font-weight: 700px;
+
+}
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
+main input[type="text"], main input[type="email"], main textarea{
+    background-color: white;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    padding: 20px 379px 20px 32px;
+    display: block;
+}
+.input-tag{
+    margin-bottom: 20px;
+}
+.btn-primary-1{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 19px 201px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;  
+}
+
