@@ -30,13 +30,25 @@
     border: none;
     cursor: pointer;
 }
+
+/* Hover Effects */
+
 .btn-primary:hover, .btn-primary-1:hover {
     background-color: tomato;
     font-size: 22px;
-    transition: 0.7s;
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.nav-title:hover{
+    color: tomato;
+    transform: scale(1.5);
+    transition: 0.5s;
 }
 a:hover{
     color: #4E47FF;
+    transform: scale(1.5);
+    transition: 0.5s;
 }
 .footer-title:hover{
     color: tomato;
@@ -134,6 +146,7 @@ nav{
     text-align: center;
     font-weight: bold;
     font-size: 42px;
+    
 }
 .cards{
     display: flex;
