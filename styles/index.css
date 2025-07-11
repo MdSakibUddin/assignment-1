@@ -30,8 +30,16 @@
     border: none;
     cursor: pointer;
 }
-.btn-primary:hover, .btn-primary-1:hover{
-    background-color: tomato
+.btn-primary:hover, .btn-primary-1:hover {
+    background-color: tomato;
+    font-size: 22px;
+    transition: 0.7s;
+}
+a:hover{
+    color: #4E47FF;
+}
+.footer-title:hover{
+    color: tomato;
 }
 /* Header Section Starts */
 .header{
@@ -198,4 +206,38 @@ main input[type="text"], main input[type="email"], main textarea{
     border: none;
     cursor: pointer;  
 }
+/* Footer Section Starts */
+.footer-section{
+    background-color: white;
+    margin-top: 104px;  
+    padding: 104px 454px 104px 454px;  
+}
 
+.footer-items{
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+.footer-title{
+    text-decoration: none;
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+}
+.footer-text{
+    color: rgba(137, 135, 161, 1);
+    font-weight: 500;
+    font-size: 22px ;
+}
+.links{
+    display: flex;  
+    justify-content:center;
+    gap: 48px;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+
+}
