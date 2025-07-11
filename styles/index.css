@@ -12,6 +12,7 @@
 }
 
 .secondary-bg{
+    background-color: #f5f8ff;
     border-radius: 10px;
 }
 
@@ -58,3 +59,61 @@ nav{
     text-align: center;
     margin-top: 158px;
 }
+
+/* Action section css  */
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 140px;
+    margin-right: 160px;
+    padding-top: 116px;
+}
+
+.action-title{
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.action-description{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-img{
+    border-radius: 40px;
+}
+
+/* Productive User Css starts */
+.productive-user-section{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0px 160px 0px 140px;
+    border-radius: 20px;
+}
+.productive-user-title{
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: -10px;
+}
+.productive-user-all-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+.productive-user-titles{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+.productive-user-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+
